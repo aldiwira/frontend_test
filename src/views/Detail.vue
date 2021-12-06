@@ -1,7 +1,11 @@
 <template>
   <main>
     <h1>{{ product.title }}</h1>
-    <img :src="product.image">
+    <img
+      v-for="(image, i) in product.images"
+      :key="i"
+      :src="image"
+    />
   </main>
 </template>
 
