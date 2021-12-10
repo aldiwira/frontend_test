@@ -23,11 +23,14 @@
     </div>
     <div class="w-1/4 flex items-center justify-end">
       <i-mdi-weather-night class="w-8 h-8 mr-2" />
+      <router-link :to="`/cart`">
       <i-mdi-cart class="w-8 h-8 mr-2" />
+      </router-link>
       <i-mdi-bell class="w-8 h-8 mr-2" />
       <i-mdi-account-circle class="w-8 h-8" />
     </div>
   </header>
+  
 </template>
 
 <script>
