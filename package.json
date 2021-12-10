@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "vue": "^3.2.23",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vuex": "4"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.0.11",
